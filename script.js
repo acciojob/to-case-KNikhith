@@ -1,7 +1,6 @@
 function toCase(text) {
   // write your code herer
-	text=text.trim();
-	text=text.replace(/\s+/g,"");
+
 	return `${text.toLowerCase()}-${text.toUpperCase()}`
 }
 
